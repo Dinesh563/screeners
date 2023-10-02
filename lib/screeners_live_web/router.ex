@@ -17,7 +17,7 @@ defmodule ScreenersLiveWeb.Router do
   scope "/", ScreenersLiveWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    get "/", StocksController, :home
   end
 
   # Other scopes may use custom stacks.

@@ -2,4 +2,19 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+
+.card {
+    background-color: lightcoral;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.stock-container {
+    display: flex;
+    background-color: lightcyan;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 /* This file is for your main application CSS */
